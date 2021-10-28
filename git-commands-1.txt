@@ -32,4 +32,12 @@ Person B -> Pull from master to private branch, merge code to master
 
 Scenario 3:
 1 Person -> Two different features
-Work on different branches
+
+			PrivateBranch1-------------------
+			|				|
+			|				|
+			|				|
+----------------------Master--------Release-------Master------------------Master---------Release-----------Master--------------------
+			|							|
+			|							|Pull
+		PrivateBranch2---------------------------------------------------
